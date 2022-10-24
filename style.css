@@ -4,6 +4,23 @@ body {
   margin: 2em;
 }
 
+nav {
+  display: flex;
+  background-color: #e495e4;
+}
+
+nav div {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 22px;
+  padding: 14px;
+  color: white;
+}
+
+nav div:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
+
 table {
   border: 2px solid#800080;
   border-collapse: collapse;

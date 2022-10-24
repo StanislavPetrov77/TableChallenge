@@ -1,0 +1,69 @@
+/* CSS files add styling rules to your content */
+
+body {
+  margin: 2em;
+}
+
+table {
+  border: 2px solid#800080;
+  border-collapse: collapse;
+  text-align: center;
+  width: 100%;
+}
+
+thead {
+  font-family: "Rock Salt";
+  color: #fff;
+  background: linear-gradient(rgba(0,0,0,0.1),  rgba(0,0,0,0.5)), url("./assets/leopardskin.jpg");
+}
+
+thead td {
+  border: 2px solid #800080;
+  padding: 3px;
+}
+
+tbody {
+  font-family: 'Roboto Flex', sans-serif;
+}
+
+tbody tr:nth-child(even) {
+  background: url("./assets/noise.png"), #e495e4;
+}
+
+tbody tr:nth-child(odd) {
+  background: url("./assets/noise.png"), #ff33cc;
+}
+
+tbody td {
+  padding: 8px;
+  font-size: 14px;
+}
+
+tfoot {
+  color: #fff;
+  background: linear-gradient(rgba(0,0,0,0.1),  rgba(0,0,0,0.5)), url("./assets/leopardskin.jpg");
+}
+
+tfoot td {
+  padding: 3px;
+  border: 2px solid #800080;
+}
+
+.total {
+  font-family: 'Rock Salt';
+  padding-right: 10px;
+  text-align: right;
+}
+
+.total-count {
+  font-family: 'Roboto Flex', sans-serif;
+  padding-left: 10px;
+  text-align: left;
+}
+
+.end-paragraph {
+  text-align: right;
+  font-family: 'Rock Salt';
+  font-size: 14px;
+}
+
